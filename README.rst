@@ -13,6 +13,11 @@ simpleeval (Simple Eval)
    :target: https://badge.fury.io/py/simpleeval
    :alt: PyPI Version
 
+This is a fork of the simpleeval library and fixes a compatibility issue with
+setuptools (for versions >= 58). This library is used by
+`reportbro-lib <https://github.com/jobsta/reportbro-lib>`_
+(see `ReportBro <https://www.reportbro.com>`_).
+
 A quick single file library for easily adding evaluatable expressions into
 python projects.  Say you want to allow a user to set an alarm volume, which
 could depend on the time of day, alarm level, how many previous alarms had gone
