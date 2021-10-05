@@ -1,9 +1,9 @@
 from setuptools import setup
 
-__version__ = '0.9.10'
+__version__ = '0.9.11'
 
 setup(
-    name='simpleeval',
+    name='reportbro-simpleeval',
     py_modules=['simpleeval'],
     version=__version__,
     description='A simple, safe single expression evaluator library.',
@@ -11,11 +11,12 @@ setup(
     long_description_content_type='text/x-rst',
     author='Daniel Fairhead',
     author_email='danthedeckie@gmail.com',
-    url='https://github.com/danthedeckie/simpleeval',
-    download_url='https://github.com/danthedeckie/simpleeval/tarball/' + __version__,
+    maintainer='Alex Hartmann',
+    maintainer_email='alex@reportbro.com',
+    url='https://github.com/jobsta/simpleeval',
+    download_url='https://github.com/jobsta/simpleeval/tarball/' + __version__,
     keywords=['eval', 'simple', 'expression', 'parse', 'ast'],
     test_suite='test_simpleeval',
-    use_2to3=True,
     classifiers=['Development Status :: 4 - Beta',
                  'Intended Audience :: Developers',
                  'License :: OSI Approved :: MIT License',
